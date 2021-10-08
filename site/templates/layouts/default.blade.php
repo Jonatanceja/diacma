@@ -7,14 +7,29 @@
     <title>{{ $site->title() }} | {{ $page->title() }}</title>
 
     <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
+    <link rel="stylesheet" href="/css/animate.css">
+    @stack('styles')
+    <script src="/js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <style>
-        body{ position:absolute;top:0;left:0;right:0;bottom:0; }
-        body > .preventive{ position:absolute;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);width:100%; }
-        body > .preventive img{ display:block;margin:0 auto;max-width:250px;width:35%; }
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+        h1, h2, h3, h4, h5, h6, li, p {
+        font-family: Montserrat;
+        }
+
+        .swiper-button-prev, .swiper-button-next  {
+        color: white;
+        }
     </style>
+
 </head>
+@include('partials.nav')
 <body>
 @yield('content')
+@stack('scripts')
 <script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>
