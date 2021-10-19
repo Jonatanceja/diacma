@@ -1,0 +1,17 @@
+Title: Otros productos
+
+----
+
+Description: Tinacos, cisternas, caretas, guantes, pintura, tubos de cartón
+
+----
+
+Cover:
+
+- otros.jpg
+
+----
+
+Icono:
+
+- otros.png

@@ -9,3 +9,8 @@ sections:
     image: false
     templates:
       - slider
+      - servicesection
+      - info
+      - contadores
+      - socios
+      - cta

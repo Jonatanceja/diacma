@@ -3,20 +3,20 @@
             <div class="w-2/3 flex space-x-3">
                 <div class="flex items-center space-x-2">
                     <img class="h-5" src="/images/marker.svg" alt="">
-                    <p class="">Carretera Gdl – Morelia #1004 Jocotepec, Jalisco</p>
+                    <p class="">{{ $site->direccion() }}</p>
                 </div>
                 <div class="flex items-center space-x-2">
                     <img class="h-5" src="/images/mobile.svg" alt="">
-                    <p class="">33 1605 2859</p>
+                    <p class="">{{ $site->telefono() }}</p>
                 </div>
                 <div class="flex items-center space-x-2">
                     <img class="h-5" src="/images/bell.svg" alt="">
-                    <p class="">Lunes a Viernes 08:30 – 17:30  Sábado 08:30 –  12:45</p>
+                    <p class="">{{ $site->horario() }}</p>
                 </div>
             </div>
             <div class="flex w-1/3 justify-end space-x-4">
-                <a href=""><img class="h-4" src="/images/facebook.svg" alt=""></a>
-                <a href=""><img class="h-4" src="/images/twitter.svg" alt=""></a>
+                <a href="{{ $site->facebook() }}"><x-icons.facebook class="h-5 text-white hover:text-yellow-500 transition duration-300"></x-icons.facebook></a>
+                <a href="{{ $site->instagram() }}"><x-icons.instagram class="h-5 text-white hover:text-yellow-500 transition duration-300"></x-icons.instagram></a>
             </div>
 
     </div>
@@ -67,7 +67,7 @@
                   <ul class="pt-6 lg:pt-0 list-reset uppercase text-center lg:flex lg:space-x-8 space-y-4 lg:space-y-0 lg:justify-end">
                   @foreach ($site->children()->listed() as $subpage)
                       <li>
-                          <a class="inline-block text-gray-800 no-underline hover:text-indigo-600 active:text-indigo-600" href="{{ $subpage->url() }}" @click="isOpen = false">{{ $subpage->title() }}</a>
+                          <a class="inline-block text-gray-800 no-underline hover:text-yellow-500 active:text-indigo-600 transition duration-300" href="{{ $subpage->url() }}" @click="isOpen = false">{{ $subpage->title() }}</a>
                       </li>
                   @endforeach
                   </ul>

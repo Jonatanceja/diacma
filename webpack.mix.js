@@ -13,6 +13,7 @@ let mix = require('laravel-mix');
 mix
   .js('resources/js/app.js', 'js')
   .copy('node_modules/swiper/swiper-bundle.min.css', 'public/css/swiper.css')
+  .copy('node_modules/swiper/swiper-bundle.min.js', 'public/js/swiper.js')
   .copy('node_modules/animate.css/animate.min.css', 'public/css/animate.css')
   .postCss('resources/css/app.css', 'css', [
     require('postcss-import'),

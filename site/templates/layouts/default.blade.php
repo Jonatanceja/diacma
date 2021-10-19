@@ -23,12 +23,21 @@
         .swiper-button-prev, .swiper-button-next  {
         color: white;
         }
+
+        .swiper-pagination-bullet-active {
+        background: rgba(245, 158, 11);
+        }
+
+        .swiper-pagination-bullet-inactive {
+        background: rgba(255, 255, 255);
+        }
     </style>
 
 </head>
 @include('partials.nav')
 <body>
 @yield('content')
+@include('partials.footer')
 @stack('scripts')
 <script src="{{ mix('js/app.js') }}"></script>
 </body>

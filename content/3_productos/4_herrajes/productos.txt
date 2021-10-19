@@ -1,0 +1,17 @@
+Title: Herrajes
+
+----
+
+Description: Candados, concertinas, discos, arpones, baleros, pasadores, chapas, flexometro…
+
+----
+
+Cover:
+
+- herrajes.jpg
+
+----
+
+Icono:
+
+- herrajes.svg

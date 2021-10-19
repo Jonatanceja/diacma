@@ -1,0 +1,17 @@
+Title: Ladrillos
+
+----
+
+Description: Jarro, bovedilla, adobón, bloque, Sayúla…
+
+----
+
+Cover:
+
+- ladrillos.jpg
+
+----
+
+Icono:
+
+- ladrillos.png

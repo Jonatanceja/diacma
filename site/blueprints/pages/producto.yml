@@ -1,0 +1,28 @@
+title: Producto
+
+columns:
+  left:
+    width: 1/2
+    sections:
+    fields:
+      photos:
+        type: files
+        label: Galeria
+        max: 4
+        layout: cards
+      ficha:
+        type: files
+        label: Fichas
+        max: 3
+        layout: cards
+        image:
+          cover: true
+
+  right:
+    width: 1/2
+    sections:
+    fields:
+      details:
+        type: textarea
+        label: Detalles
+
