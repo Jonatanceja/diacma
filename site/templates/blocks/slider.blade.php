@@ -12,9 +12,9 @@
                             <div class="h-1 w-20 md:w-56 bg-yellow-500 mx-auto"></div>
                             <p class="md:w-2/3 w-full mx-auto text-sm md:text-base">{{ $image->text() }}</p>
                             @if ($image->boton()->isNotEmpty())
-                            <div class="flex justify-center md:justify-start">
+                            <div class="flex justify-center text-center w-full">
                                 <a href="{{ $image->enlace() }}">
-                                    <div>{{ $image->boton() }}</div>
+                                    <x-buttons.solid>{{ $image->boton() }}</x-buttons.solid>
                                 </a>
                             </div>
                             @endif

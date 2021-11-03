@@ -11,9 +11,9 @@
 ?>
 <div<?php if($class): ?> class="<?= $class ?>"<?php endif; ?>>
 <?php endif; ?>
-    <?php if($label):?><label class="text-gray-600 font-light uppercase block mb-2 mt-3 text-sm" for="<?= $name ?>"><?= $label ?></label><?php endif; ?>
+    <?php if($label):?><label for="<?= $name ?>"><?= $label ?></label><?php endif; ?>
 
-    <select class="w-full border border-gray-400 focus:ring-2 focus:ring-yellow-500" name="<?= $name ?>" id="<?= $name ?>"<?php if(!$useDiv and $class): ?> class="<?= $class ?>"<?php endif; ?><?php if($multiple):?> multiple<?php endif; ?><?php if($req): ?> required<?php endif; ?>>
+    <select name="<?= $name ?>" id="<?= $name ?>"<?php if(!$useDiv and $class): ?> class="<?= $class ?>"<?php endif; ?><?php if($multiple):?> multiple<?php endif; ?><?php if($req): ?> required<?php endif; ?>>
 <?php
         $canSelect = true;
         foreach($fld->menuitems()->toStructure() as $option):

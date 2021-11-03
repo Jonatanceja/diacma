@@ -4,6 +4,9 @@ Title: Slider
 
 Gallery:
 
-- soldador.jpg
-- >
-  whatsapp-image-2021-10-01-at-08.29.59.jpeg
+- editadas.jpg
+- acero.jpeg
+- cemento.jpeg
+- ladrillos.jpeg
+- herrajes.jpeg
+- otros.jpeg

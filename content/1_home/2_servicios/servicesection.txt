@@ -10,7 +10,7 @@ Sub: ¿Que vendemos?
 
 ----
 
-Text: Aenean lacinia bibendum nulla sed consecteturd ligula porta felis euismod semper.  Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+Text: Diacma es un fabricante y distribuidor líder de productos para la construcción en Jalisco. Desde hace más de 15 años, Diacma ofrece productos, servicios y asistencia de alta calidad a sus clientes.
 
 ----
 

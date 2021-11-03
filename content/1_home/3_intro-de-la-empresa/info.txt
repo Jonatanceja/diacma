@@ -10,13 +10,18 @@ Headline: Años ofreciendo los  mejores productos.
 
 ----
 
-Text: Aenean lacinia bibendum nulla sed consecteturd ligula porta felis euismod semper.  Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+Text:
+
+Llevamos 15 años distribuyendo los mejores productos, suministros y herramientas para la construcción. Contamos con productos de la más alta calidad. 
+Nuestros 15 años de experiencia y nuestro excelente servicio al cliente nos han preparado para ayudarle a elegir los productos adecuados para su proyecto.
+
+¡Confía en nosotros para iniciar tu próxima obra!
 
 ----
 
 Photo:
 
-- diacma-trabajo.png
+- intro.jpg
 
 ----
 

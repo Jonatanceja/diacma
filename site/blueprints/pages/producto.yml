@@ -13,7 +13,6 @@ columns:
       ficha:
         type: files
         label: Fichas
-        max: 3
         layout: cards
         image:
           cover: true

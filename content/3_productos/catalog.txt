@@ -4,4 +4,4 @@ Title: Productos
 
 Cover:
 
-- productos_2.jpg
+- image-3.jpeg

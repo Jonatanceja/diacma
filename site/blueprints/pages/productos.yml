@@ -14,7 +14,7 @@ columns:
     sections:
     fields:
       description:
-        label: Portada de categoría
+        label: Descripción de categoría
         type: text
       cover:
         label: Portada de categoría

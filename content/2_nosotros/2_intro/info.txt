@@ -16,4 +16,4 @@ Text: Somos la red de distribución de acero más grande de la zona. Ayudamos a 
 
 Photo:
 
-- diacma-nosotros.png
+- nosotros.jpg
