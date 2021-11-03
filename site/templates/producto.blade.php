@@ -26,16 +26,24 @@
             <x-headings.h2>
                 {{ $page->title() }}
             </x-headings.h2>
-            <x-headings.h3>
+            <x-headings.h4>
                 Detalles
-            </x-headings.h3>
+            </x-headings.h4>
             <x-text.regular>
                 {!! $page->details()->kti() !!}
             </x-text.regular>
+            <div>
+                <a href="{{ $site->whatsapp() }}">
+                    <x-buttons.solid>Cotizar Material</x-buttons.solid>
+                </a>
+            </div>
+            
+            
         </div>
 
     </div>
 </section>
+@if ($page->ficha()->isNotEmpty())
 <section class="bg-gray-100 py-24 wow fadeIn">
     <div class="w-full md:w-1/2 mx-auto px-5 md:px-0 space-y-10">
         <x-headings.h3>
@@ -46,6 +54,7 @@
         <img class="mx-auto w-full" src="{{ $image->url() }}" alt="">
         <?php endforeach ?>
     </div>
-
 </section>
+@endif
+
 @endsection
