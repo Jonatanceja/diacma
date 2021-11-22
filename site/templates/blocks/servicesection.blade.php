@@ -26,7 +26,7 @@
                 </div>
                 
             </div>
-            <x-text.regular>{{ $producto->description() }}</x-text.regular>   
+            <x-text.regular>{!! $producto->description()->kti() !!}</x-text.regular>   
         </x-layout.block>
         @endforeach
         <?php endif ?>      

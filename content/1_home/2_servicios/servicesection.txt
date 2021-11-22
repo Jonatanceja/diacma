@@ -10,7 +10,7 @@ Sub: ¿Que vendemos?
 
 ----
 
-Text: Diacma es un fabricante y distribuidor líder de productos para la construcción en Jalisco. Desde hace más de 15 años, Diacma ofrece productos, servicios y asistencia de alta calidad a sus clientes.
+Text: Somos la red de distribución de aceros y materiales para la construcción mas grandes de la zona. Con nuestros puntos de venta ubicados estratégicamente para satisfacer las necesidades de nuestros clientes.
 
 ----
 

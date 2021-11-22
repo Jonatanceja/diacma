@@ -15,7 +15,7 @@ columns:
     fields:
       description:
         label: Descripción de categoría
-        type: text
+        type: textarea
       cover:
         label: Portada de categoría
         type: files

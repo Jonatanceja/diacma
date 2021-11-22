@@ -2,7 +2,19 @@ Title: Aceros
 
 ----
 
-Description: Tubos, polínes, PTR, soleras, angúlos, malla, alambre, tableros, laminas, castillo, placa…
+Description:
+
+- Tubos
+- Polines
+- PTR
+- Soleras
+- Angulos
+- Malla
+- Alambre
+- Tableros
+- Laminas
+- Castillo
+- Placa
 
 ----
 

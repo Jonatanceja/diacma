@@ -2,13 +2,25 @@ Title: Herrajes
 
 ----
 
-Description: Candados, concertinas, discos, arpones, baleros, pasadores, chapas, flexometro…
+Description:
+
+- Candados 
+- Discos
+- Fierro Vaciado 
+- Caretas 
+- Pintura 
+- Guantes
+- Pasadores
+- Chapas
+- Bisagras
+- Soldadura
+- Etc.
 
 ----
 
 Cover:
 
-- herrajes.jpg
+- r9a5094.jpeg
 
 ----
 

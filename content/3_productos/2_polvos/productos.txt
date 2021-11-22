@@ -2,7 +2,14 @@ Title: Polvos
 
 ----
 
-Description: Mortero, cemento, cal, arena…
+Description:
+
+- Cemento Tolteca
+- Mortero Tolteca
+- Cemento Holcim
+- Mortero Holcim
+- Cemento Moctezuma
+- Cal
 
 ----
 

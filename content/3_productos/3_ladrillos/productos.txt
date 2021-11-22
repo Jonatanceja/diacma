@@ -2,7 +2,16 @@ Title: Ladrillos
 
 ----
 
-Description: Jarro, bovedilla, adobón, bloque, Sayúla…
+Description:
+
+- Block
+- Block negro
+- Block hueco
+- Bovedilla
+- Jarro
+- Sayula
+- ½ Adobon
+- Bóveda
 
 ----
 
